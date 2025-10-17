@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9-Ruby Bistro | Pizza-on-Demand</title>
+</head>
+<body>
+
+    <h1>9-Ruby Bistro | Pizza-on-Demand</h1>
+    
+    <fieldset>
+        <legend> Customer info </legend>
+
+            Name:<br>
+            <input type="text" name="Fullname" placeholder="Enter your fullname"><br><br>
+
+            Address:<br>
+            <input type="text" name="address" placeholder="Office/Home Adress"><br><br>
+
+            Telephone Number:<br>
+            <input type="text" name="phone" placeholder="Enter Telephone Number"><br><br>
+
+            Email:<br>
+            <input type="email" name="email" placeholder="Enter your Email"><br><br>
+
+            Delivery instructions:<br>
+            <textarea name="instructions" maxlength="400" rows="4" cols="50" placeholder="No more than 400 characters long"></textarea><br>
+
+        </form>
+    </fieldset>
+
+    <h2>Design your dream pizza:</h2>
+
+    <fieldset>
+        <legend><strong>Pizza specs</strong></legend>
+
+        <div>
+            <strong>Crust <em>(Choose one):</em></strong><br>
+            <input type="radio" name="crust" value="Classic white"> Classic white<br>
+            <input type="radio" name="crust" value="Multigrain"> Multigrain<br>
+            <input type="radio" name="crust" value="Cheese-stuffed"> Cheese-stuffed crust<br>
+            <input type="radio" name="crust" value="Gluten-free"> Gluten-free<br>
+        </div><br>
+
+        <div>
+            <strong>Toppings <em>(Choose as many as you want)</em></strong><br>
+            <input type="checkbox" name="topping" value="Red sauce"> Red sauce<br>
+            <input type="checkbox" name="topping" value="White sauce"> White sauce<br>
+            <input type="checkbox" name="topping" value="Mozzarella Cheese"> Mozzarella Cheese<br>
+            <input type="checkbox" name="topping" value="Pepperoni"> Pepperoni<br>
+            <input type="checkbox" name="topping" value="Mushrooms"> Mushrooms<br>
+            <input type="checkbox" name="topping" value="Peppers"> Peppers<br>
+            <input type="checkbox" name="topping" value="Anchovies"> Anchovies<br>
+        </div><br>
+
+        <div>
+            <strong>Number</strong><br>
+            How many pizzas:
+            <select name="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+
+    </fieldset><br>
+
+    <input type="submit" value="Bring me a pizza!">
+    <input type="reset" value="Reset">
+
+</body>
+</html>
